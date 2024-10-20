@@ -1,3 +1,73 @@
+*{
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url("/image/BG_image.png");
+    overflow: hidden;
+    margin-top: 100px;
+   
+}
+
 .btnContainer{
-    display: grid;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 8.336px;
+    border: 0.834px solid #FBFBFB;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(12.756178855895996px);
+    padding: 28.498px 25.784px;
+    
+}
+
+button{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 13.57px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40.711px;
+    border: none;
+    cursor: pointer;
+    background: #004795;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+button:hover{
+    outline: #FBFBFB;
+    border: solid 0.5px;
+    background: #0f70d8;
+    transition: 0.5s;
+
+}
+
+input{
+    /* display: flex; */
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btnRow{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
